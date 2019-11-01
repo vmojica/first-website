@@ -1,0 +1,78 @@
+.header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left:40%;
+}
+.header h1{
+    position: relative;
+    top: 18px;
+    left: 10px;
+    color:white;
+}
+
+main{
+    margin: 5% auto;
+    margin-top:7%;
+    width:60%;
+    background-color: #cecece;
+    border: 10px solid #9c8d79;
+}
+body{
+    background-color: #660033;
+}
+.phone, .email, .linkedin{
+    color: #660033;
+    font-weight: bold;
+}
+.contact-info{
+    text-align: center;
+}
+
+@media only screen and (min-width:320px){
+    .header img{
+        float: center;
+        width: 100px;
+        height: 100px;
+        margin-left:22%;
+    }
+    .header h1{
+        top: 18px;
+        left: 10px;
+    }
+    .header{
+        margin-bottom: 30%;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .header img{
+        float: center;
+        width: 100px;
+        height: 100px;
+        margin-left:27%;
+    }
+    .header h1{
+        top: 18px;
+        left: 10px;
+    }
+    .header{
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-width:920px){
+    .header img{
+        float: center;
+        width: 100px;
+        height: 100px;
+        margin-left:40%;
+    }
+    .header h1{
+        top: 18px;
+        left: 10px;
+    }
+    .header{
+        margin-bottom: 5%;
+    }
+}
